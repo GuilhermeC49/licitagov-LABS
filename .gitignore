@@ -1,0 +1,47 @@
+# ----------------------------------------
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual envs
+.env
+.venv/
+venv/
+ENV/
+
+# Logs
+*.log
+
+# Builds / dist (PyInstaller, setuptools, etc.)
+build/
+dist/
+*.spec
+
+# IDEs / Editores
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários / backups
+*.tmp
+*.bak
+~$*
+
+# Builds e executáveis
+*.exe
+/build/
+/dist/
+/__pycache__/
+*.spec
+
+# Virtual envs / Libs locais
+Lib/
+venv/
+
+# Nunca versionar repositórios Git dentro de subpastas
+**/.git
